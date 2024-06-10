@@ -33,7 +33,7 @@ dependencies:
 
 ## Usage
 
-# Logging
+### Logging
 The AppLogs class provides static methods to log messages, errors, warnings, and success messages with optional color formatting.
 
 ```dart
@@ -91,7 +91,7 @@ void main() {
 }
 ```
 
-# Toast Messages
+### Toast Messages
 The ToastFile class provides a static method to display customizable toast messages.
 
 ```dart
