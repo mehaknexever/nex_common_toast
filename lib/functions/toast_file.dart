@@ -4,7 +4,7 @@ import 'package:oktoast/oktoast.dart';
 
 /// An abstract class that provides a method to display toast messages.
 ///
-/// The `ToastFile` class defines a method for showing toast notifications with customizable
+/// The [ToastFile] class defines a method for showing toast notifications with customizable
 /// parameters such as message text, background color, position, duration, text style, and corner radius.
 ///
 /// Example usage:
@@ -33,7 +33,7 @@ import 'package:oktoast/oktoast.dart';
 abstract class ToastFile {
   /// Displays a customizable toast message.
   ///
-  /// The `toastMsg` function allows you to show a toast message with various
+  /// The [toastMsg] function allows you to show a toast message with various
   /// customizable options such as message text, background color, position,
   /// duration, text style, border radius, text overflow handling, maximum text
   /// lines, text alignment, and text direction.
@@ -58,24 +58,24 @@ abstract class ToastFile {
   /// ```
   ///
   /// Parameters:
-  /// - `msg` (String): The message to be displayed in the toast.
-  /// - `backgroundColor` (Color?, optional): The background color of the toast.
+  /// - [msg] (String): The message to be displayed in the toast.
+  /// - [backgroundColor] (Color?, optional): The background color of the toast.
   ///   Defaults to `Colors.black.withOpacity(0.8)`.
-  /// - `position` (ToastPosition?, optional): The position where the toast
+  /// - [position] (ToastPosition?, optional): The position where the toast
   ///   should be displayed. Defaults to `ToastPosition.center`.
-  /// - `duration` (Duration?, optional): The duration for which the toast
+  /// - [duration] (Duration?, optional): The duration for which the toast
   ///   should be displayed. Defaults to `Duration(seconds: 5)`.
-  /// - `textStyle` (TextStyle?, optional): The text style of the message.
+  /// - [textStyle] (TextStyle?, optional): The text style of the message.
   ///   Defaults to `TextStyle(fontSize: 12.0, color: Colors.white)`.
-  /// - `radius` (double?, optional): The border radius of the toast.
+  /// - [radius] (double?, optional): The border radius of the toast.
   ///   Defaults to `13.0`.
-  /// - `textOverflow` (TextOverflow?, optional): How the text should overflow.
+  /// - [textOverflow] (TextOverflow?, optional): How the text should overflow.
   ///   Defaults to `TextOverflow.ellipsis`.
-  /// - `textMaxLines` (int?, optional): The maximum number of lines for the
+  /// - [textMaxLines] (int?, optional): The maximum number of lines for the
   ///   text. Defaults to `8`.
-  /// - `textAlign` (TextAlign?, optional): How the text should be aligned.
+  /// - [textAlign] (TextAlign?, optional): How the text should be aligned.
   ///   Defaults to `TextAlign.center`.
-  /// - `textDirection` (TextDirection?, optional): The text direction for the
+  /// - [textDirection] (TextDirection?, optional): The text direction for the
   ///   message. Defaults to `TextDirection.ltr`.
   ///
   /// Note:
